@@ -1,0 +1,10 @@
+ipython -- bin/meka_data_converter.py flags --data-dir ../dcsn2/data/  -o data/multilabel/flags/ -l 7 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py CAL500 --data-dir ../dcsn2/data/  -o data/multilabel/cal500/ -l 174 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py emotions --data-dir ../dcsn2/data/  -o data/multilabel/emotions/ -l 6 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py plant978 --data-dir ../dcsn2/data/  -o data/multilabel/plant978/ -l 12 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py scene --data-dir ../dcsn2/data/  -o data/multilabel/scene/ -l 6 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py yeast --data-dir ../dcsn2/data/  -o data/multilabel/yeast/ -l 14 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py human3106 --data-dir ../dcsn2/data/  -o data/multilabel/human3106/ -l 14 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py Arts1500 --data-dir ../dcsn2/data/  -o data/multilabel/arts1500/ -l  26 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py Health1500 --data-dir ../dcsn2/data/  -o data/multilabel/health1500/ -l 32 --save-x-txt --gzip
+ipython -- bin/meka_data_converter.py Business1500 --data-dir ../dcsn2/data/  -o data/multilabel/business1500/ -l 30 --save-x-txt --gzip
